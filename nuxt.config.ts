@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   vite: {
     server: {
       allowedHosts: [
-        'https://bef7f8803298.ngrok-free.app/', // your current ngrok URL
+        'https://8c615a687f32.ngrok-free.app/', // your current ngrok URL
         '.ngrok-free.app',             // all subdomains
         '0.0.0.0',                     // optional: allow any host
       ],
