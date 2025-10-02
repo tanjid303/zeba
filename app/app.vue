@@ -22,13 +22,15 @@
 
     <div class="content-area">
       <Transition name="fade" mode="out-in">
-       
+        <div v-if="step === 0" class="celebration-step">
+          <h1 class="celebration-text"> Happy Birthday Zeba !</h1>
+        </div>
 
         <div v-if="step === 3" class="zeba-grid">
           <div class="zeba-row slide-in-left">
             <img src="/pic/zeba.jpg" alt="Zeba" class="zeba-img" />
             <div class="zeba-text-box">
-              <h2>Our Birthday Queen 👑</h2>
+              <h2>Happy Birthday Zeba 👑</h2>
               <p>আজকে আপনার birthday ভাবলাম কিছু একটা করি তাই ছোট একটা try করলাম,,  ট্রিট পাইবার জন্য কত কিছু করতে হয় এখন 💤!</p>
             </div>
           </div>
